@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+
+.header{
+    background-color: #5454d4;
+    color: white;
+}
+
+.header a{
+    color: inherit;
+}
+
+.header a:hover{
+    text-decoration: underline;
+}
+
+.nav .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav{
+    padding: 20px 0;
+}
+
+.nav_list{
+    display: flex;
+}
+
+.nav_link{
+    margin: 0 10px;
+}
+
+.nav .nav_cart{
+    display: flex;
+    align-items: center;
+    
+}
+
+.nav .nav_cart span{
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: orange;
+    color: black;
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 50%;
+}
+
+@media (max-width: 1160px) {
+    .container{
+        width: 1000px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 1220px) {
+    .container_fluid{
+        width: 1100px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 1120px) {
+    .container{
+        width: 900px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 950px) {
+    .container{
+        width: 800px;
+        margin: 0 auto;
+    }
+}
+
+
+
+
+.earphone_img{
+    width: 30%;
+}
+
+.earphone_content{
+    width: 70%;
+}
+
+.main .container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main_title{
+    font-size: 60px;
+    margin-bottom: 15px;
+    line-height: 70px;
+}
+
+.main_subtext{
+    font-size: 21px;
+
+}
+
+.price_box{
+    width: 65%;
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-around;
+    margin-top: 34px;
+    margin-bottom: 21px;
+    padding: 28px 23px 12px 23px;
+    background-color: #6565e9;
+}
+
+.price{
+    font-size: 60px;
+    margin-right: auto;    
+}
+
+.discount{
+    width: 45%;
+    background-color: #77bf41;
+    color: white;
+    padding: 9px 14px;
+    text-align: center;
+}
+
+.price_info{
+    color: rgba(255, 255, 255, .7);
+}
+
+.number_of_product{
+    padding: 17px 28px;
+    font-weight: bold;
+}
+
+.submit{
+    padding: 0 30px;
+    border: none;
+    margin-left: 10px;
+    background-color: #fedc5a;
+}
+
+.main_form{
+    display: flex;
+}
